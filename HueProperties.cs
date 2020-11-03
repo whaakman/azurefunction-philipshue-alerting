@@ -1,5 +1,6 @@
 namespace Alerting.Function
-{    public class HueProperties
+{    
+    public class HueProperties
     {
 
         // By default bool is set to false, but we don't want to take a chance :)
@@ -12,7 +13,7 @@ namespace Alerting.Function
         public HueProperties SetColor(string color)
         {
             var properties = new HueProperties();
-            
+
             if (color == "green")
             {
                 properties.bri = 254;
