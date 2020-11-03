@@ -57,7 +57,6 @@ namespace Alerting.Function
                     }
             }
             
-
             // Use Configuration Builder to grab required value (Hue URL)
             var config = new ConfigurationBuilder().AddEnvironmentVariables().Build();
             string url = config["hueURL"];
@@ -67,10 +66,10 @@ namespace Alerting.Function
             HttpClient client = new HttpClient();
 
             // Create objects for turning the lights on and off
+            // Creating an "empty" object to turn off the lights (on is set to false) 
             var propertiesTurnOn = new HueProperties().SetColor(alert);
             var propertiesTurnOff = new HueProperties();  
 
-            //propertiesTurnOn = new HueProperties().SetColor(alert);
             responseMessage = $"Light flashed {alert}!";
 
 
