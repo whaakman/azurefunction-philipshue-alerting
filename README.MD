@@ -2,7 +2,7 @@
 This function sends an call to the Philips Hue bridge to flash the lights in the color "Green" or "Red" for the "count" amount of times.
 
 ### Requirements
-The Hue bridge needs to be accessible to the Azure Function. This includes potential port forwarding to your Hue Bridge and a user on your Hue Bridge. Follow these steps to create a user: https://developers.meethue.com/develop/get-started-2/
+The Hue bridge needs to be accessible from the Azure Function. This includes potential port forwarding to your Hue Bridge and a user on your Hue Bridge. Follow these steps to create a user: https://developers.meethue.com/develop/get-started-2/
 
 Please be careful exposing your Hue Bridge to the internet without additional security configurations in your network. 
 
