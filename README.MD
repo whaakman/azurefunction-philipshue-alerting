@@ -1,6 +1,4 @@
 # Azure Function Philips Hue Alert
-![](flash.gif)
-
 This function sends an call to the Philips Hue bridge to flash the lights in the color "Green" or "Red" for the "count" amount of times.
 
 ### Requirements
