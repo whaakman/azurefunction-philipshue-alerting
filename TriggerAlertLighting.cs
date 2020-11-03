@@ -70,8 +70,8 @@ namespace Alerting.Function
             var propertiesTurnOn = new HueProperties().SetColor(alert);
             var propertiesTurnOff = new HueProperties();  
 
+            // Set the response message
             responseMessage = $"Light flashed {alert}!";
-
 
             // Convert object properties to json
             var jsonTurnOn = JsonConvert.SerializeObject(propertiesTurnOn);
