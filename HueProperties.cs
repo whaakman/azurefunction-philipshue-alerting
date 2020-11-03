@@ -12,6 +12,7 @@ namespace Alerting.Function
         public HueProperties SetColor(string color)
         {
             var properties = new HueProperties();
+            
             if (color == "green")
             {
                 properties.bri = 254;
@@ -20,7 +21,7 @@ namespace Alerting.Function
                 properties.on = true;
             }
 
-              if (color == "red")
+            if (color == "red")
             {
                 properties.bri = 254;
                 properties.hue = 908;
