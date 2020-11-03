@@ -31,3 +31,5 @@ Function is currently set to function level authentication. Can change if needed
 Function can be leveraged through _http:///<FunctionAppURI\>/api/TriggerAlertLighting?alert=<COLOR\>&count=<COUNT\>&code=<FUNCTIONKEY\>_
 
 Lights should start flashing pretty quickly :)
+
+![](flash.gif)
