@@ -26,3 +26,8 @@ Example:
 Additionally the brightness can be adjusted by changing the value of _properties.bri_
 
 Function is currently set to function level authentication. Can change if needed. Requests are captured from the GET request as this allows for easy integration with Azure Services such as Action Groups. 
+
+### Usage 
+Function can be leveraged through _http:///<FunctionAppURI\>/api/TriggerAlertLighting?alert=<COLOR\>&count=<COUNT\>&code=<FUNCTIONKEY\>_
+
+Lights should start flashing pretty quickly :)
