@@ -1,4 +1,6 @@
 # Azure Function Philips Hue Alert
+![](flash.gif)
+
 This function sends an call to the Philips Hue bridge to flash the lights in the color "Green" or "Red" for the "count" amount of times.
 
 ### Requirements
@@ -31,5 +33,3 @@ Function is currently set to function level authentication. Can change if needed
 Function can be leveraged through _http:///<FunctionAppURI\>/api/TriggerAlertLighting?alert=<COLOR\>&count=<COUNT\>&code=<FUNCTIONKEY\>_
 
 Lights should start flashing pretty quickly :)
-
-![](flash.gif)
